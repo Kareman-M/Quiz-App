@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quiz-section {
+  width: 50%;
+  margin: 50px auto;
+  background: #f8f8f8;
+  padding: 30px;
+}
+.cat-num {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background: #fff;
+  font-size: 14px;
+}
+.cat-num .cat-name,
+.cat-num .numofQus span {
+  font-weight: bold;
+}
+/*******************************/
+.bullets-time {
+  display: flex;
+  padding: 10px;
+  margin: 15px 0;
+  background: #fff;
+  justify-content: space-between;
+}
+.bullets-time .time span {
+  font-weight: bold;
+}
+.bullets span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: inline-block;
+  margin-left: 5px;
+}
+.bullets span.on {
+  background-color: #0075ff;
+}
+/*********************************************/
+.ques {
+  padding: 15px;
+  background: #fff;
+}
+.answers {
+  margin-bottom: 10px;
+}
+.answer {
+  background: #f8f8f8;
+  padding-left: 5px;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+}
+.answers h2 {
+  margin-bottom: 20px;
+}
+.answers .answer {
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+.answer:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.answers .answer input[type="Radio"]:checked + label {
+  color: #0075ff;
+}
+/********************************************/
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btns button {
+  cursor: pointer;
+  margin-top: 10px;
+  outline: 0;
+}
+.submit_btn {
+  width: 150px;
+  border: 0;
+  background: #0075ff;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-family: inherit;
+  transition: background-color 0.5s;
+}
+.submit_btn:hover {
+  background: #0074aa;
+}
+.prvs_nxt {
+  display: flex;
+  justify-content: space-between;
+}
+.prvs-btn {
+  background: #555;
+  color: #fff;
+}
+.prvs-btn:hover,
+.nxt-btn:hover {
+  opacity: 0.8;
+}
+.nxt-btn {
+  background: #eee;
+  color: #333;
+}
+.prvs-btn,
+.nxt-btn {
+  margin-right: 15px;
+  width: 80px;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  transition: opacity 0.5s;
+}

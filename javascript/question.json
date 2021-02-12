@@ -1,0 +1,137 @@
+[
+    {
+        "id":1,
+        "ques-title":"HTML stands for -",
+        "answer_1" :"HighText Machine Language",
+        "answer_2" :"HyperText and links Markup Language",
+        "answer_3" :"HyperText Markup Language",
+        "answer_4" :"None of these",
+        "right_answer":"HyperText Markup Language"
+    },
+    {
+        "id":2,
+        "ques-title":"The correct sequence of HTML tags for starting a webpage is -",
+        "answer_1" :"Head, Title, HTML, body",
+        "answer_2" :"HTML, Body, Title, Head",
+        "answer_3" :"HTML, Head, Title, Body",
+        "answer_4" :"HTML, Head, Title, Body",
+        "right_answer":"HTML, Head, Title, Body"
+    },
+    {
+        "id":3,
+        "ques-title":"Which of the following tag is used for inserting the largest heading in HTML?",
+        "answer_1" :"&lt;h3&gt;",
+        "answer_2" :"&lt;h1&gt;",
+        "answer_3" :"&lt;h6&gt;",
+        "answer_4" :"&lt;h5&gt;",
+        "right_answer":"&lt;h1&gt;"
+    },
+    {
+        "id":4,
+        "ques-title":" Which of the following element is responsible for making the text bold in HTML?",
+        "answer_1" :"&lt;pre&gt;",
+        "answer_2" :"&lt;a&gt;",
+        "answer_3" :"&lt;b&gt;",
+        "answer_4" :"&lt;br&gt;",
+        "right_answer":"&lt;b&gt;"
+    },
+    {
+        "id":5,
+        "ques-title":"How to create a checkbox in HTML?",
+        "answer_1" :"&lt;input type = \"checkbox\"&gt;",
+        "answer_2" :"&lt;input type = \"button\"&gt;",
+        "answer_3" :"&lt;checkbox&gt;",
+        "answer_4" :"&lt;input type = \"check\"&gt;",
+        "right_answer":"&lt;input type = \"checkbox\"&gt;"
+    },
+    {
+        "id":6,
+        "ques-title":"Which of the following tag is used to insert a line-break in HTML?",
+        "answer_1" :"&lt;pre&gt;",
+        "answer_2" :"&lt;a&gt;",
+        "answer_3" :"&lt;b&gt;",
+        "answer_4" :"&lt;br&gt;",
+        "right_answer":"&lt;br&gt;"
+    },
+    {
+        "id":7,
+        "ques-title":"How to create an unordered list (a list with the list items in bullets) in HTML?",
+        "answer_1" :"&lt;ul&gt;",
+        "answer_2" :"&lt;ol&gt;",
+        "answer_3" :"&lt;li&gt;",
+        "answer_4" :"&lt;i&gt;",
+        "right_answer":"&lt;ul&gt;"
+    },
+    {
+        "id":8,
+        "ques-title":"Which character is used to represent the closing of a tag in HTML?",
+        "answer_1" :"\\",
+        "answer_2" :"!",
+        "answer_3" :".",
+        "answer_4" :"/",
+        "right_answer":"/"
+    },
+    {
+        "id":9,
+        "ques-title":"How to create a hyperlink in HTML?",
+        "answer_1" :"&lt;a href = \"www.javatpoint.com\"&gt; javaTpoint.com &lt;/a&gt;",
+        "answer_2" :"&lt;a url = \"www.javatpoint.com\" javaTpoint.com /a&gt;",
+        "answer_3" :"&lt;a link = \"www.javatpoint.com\"&gt; javaTpoint.com &lt;/a&gt;",
+        "answer_4" :"&lt;a&gt; www.javatpoint.com &lt;javaTpoint.com /a&gt;",
+        "right_answer":"&lt;a href = \"www.javatpoint.com\"&gt; javaTpoint.com &lt;/a&gt;"
+    },
+    {
+        "id":10,
+        "ques-title":"Which of the following tag is used to make the underlined text?",
+        "answer_1" :"&lt;i&gt;",
+        "answer_2" :"&lt;ul&gt;",
+        "answer_3" :"&lt;u&gt;",
+        "answer_4" :"&lt;pre&gt;",
+        "right_answer":"&lt;u&gt;"
+    },
+    {
+        "id":11,
+        "ques-title":"How to create an ordered list (a list with the list items in numbers) in HTML?",
+        "answer_1" :"&lt;ul&gt;",
+        "answer_2" :"&lt;ol&gt;",
+        "answer_3" :"&lt;li&gt;",
+        "answer_4" :"&lt;i&gt;",
+        "right_answer":"&lt;ol&gt;"
+    },
+    {
+        "id":12,
+        "ques-title":"Which of the following element is responsible for making the text italic in HTML?",
+        "answer_1" :"&lt;i&gt;",
+        "answer_2" :"&lt;italic&gt;",
+        "answer_3" :"&lt;it&gt;",
+        "answer_4" :"&lt;pre&gt;",
+        "right_answer":"&lt;i&gt;"
+    },
+    {
+        "id":13,
+        "ques-title":"How to insert an image in HTML?",
+        "answer_1" :"&lt;img href = \"jtp.png\" /&gt;",
+        "answer_2" :"&lt;img url = \"jtp.png\" /&gt;",
+        "answer_3" :"&lt;img link = \"jtp.png\" /&gt;",
+        "answer_4" :"&lt;img src = \"jtp.png\" /&gt;",
+        "right_answer":"&lt;img src = \"jtp.png\" /&gt;"
+    },
+    {
+        "id":14,
+        "ques-title":"How to add a background color in HTML?",
+        "answer_1" :"&lt;marquee bg color: \"red\"&gt;",
+        "answer_2" :"&lt;marquee bg-color = \"red\"&gt;",
+        "answer_3" :"&lt;marquee bgcolor = \"red\"&gt;",
+        "answer_4" :"&lt;marquee color = \"red\"&gt;",
+        "right_answer":"&lt;marquee bgcolor = \"red\"&gt;"
+    },
+    {
+        "id":15,
+        "ques-title":"&lt;input&gt; is -",
+        "answer_1" :"a format tag.",
+        "answer_2" :"an empty tag.",
+        "answer_3" :"All of the above",
+        "answer_4" :"None of the above",
+        "right_answer":"an empty tag"
+    }
+]
